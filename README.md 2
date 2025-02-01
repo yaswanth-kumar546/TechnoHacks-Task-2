@@ -1,0 +1,22 @@
+NAME: Yejarla Yaswanth Kumar
+COMPANY: TechnoHacks PVT LTD
+DOMAIN: python Development and
+INTERN ID: THI-0125B74
+DURATION: 15th January to 15th February
+
+OVER VIEW OF THE PROJECT:
+TASK: Number Guessing Game Using Python
+
+Overview
+This project is a simple command-line based Number Guessing Game written in Python. The game randomly generates a secret number within a user-specified range, and the player tries to guess the number. The game provides feedback on whether the player's guess is too high or too low until the correct number is guessed.
+
+Features:
+   * Random Number Generation: Utilizes Python's random library to generate a random number between 1 and 100.
+   * User Interaction: Prompts the user to guess the number and provides immediate feedback (too low, too high, or correct).
+   * Attempts Tracking: Tracks the number of attempts the user takes to guess the number correctly.
+
+Future Enhancements:
+   * Add difficulty levels (easy, medium, hard) with predefined ranges.
+   * Implement a scoring system based on the number of attempts.
+   * Add a graphical user interface (GUI) for a more interactive experience.
+   * Allow users to play multiple rounds and keep track of their best scores.
