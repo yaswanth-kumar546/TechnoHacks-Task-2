@@ -1,0 +1,20 @@
+#Welcome to Number Guessing Game
+import random
+
+def number_guessing_game():
+#get the lower and upper bounds for the range 
+    lower, upper = int(input("Lower limit: ")), int(input("Upper limit: "))
+#Randomly generate the seceret number with the given range
+    secret = random.randint(lower, upper)
+    print(f"Guess the number between {lower} and {upper}!")
+    
+    attempts = 0 #Here Initializing the attempt counter
+
+    while (guess := int(input("Your guess: "))) != secret:
+        attempts += 1 #Increments attempts counter
+        #if the guess is too low or too high
+        print("Too low!" if guess < secret else "Too high!")
+    #Notify the user of sucess and the numbe of attempts
+    print(f"Correct! It took you {attempts + 1} attempts.")
+
+number_guessing_game()
